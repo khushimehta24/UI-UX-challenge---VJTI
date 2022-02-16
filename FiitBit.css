@@ -243,6 +243,13 @@ body{
 @media (max-width:807px){
     .content{
        flex-direction: column;
+       height: auto;
+    }
+    .circle{
+        display: none;
+    }
+    .FiitBit{
+        width: 80%;
     }
 }
 
@@ -283,6 +290,10 @@ body{
     align-items: center;
     margin: 0;
     padding: 0%;
+}
+
+.FiitBit{
+    width: 100%;
 }
 
 .thumb li img{
